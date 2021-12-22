@@ -6,9 +6,9 @@ import holdingFishImage from "../public/holding-fish.jpg";
 const META = {
   title: "Knot@Work Fishing Charters",
   description: "Fishing charters for your family and friends off the coast of Virginia and North Carolina.",
-  type: "",
-  image: "",
-  url: "",
+  type: "business.business",
+  image: holdingFishImage,
+  url: "https://www.knotatworkcharters.com",
 };
 
 export default function Home() {
@@ -20,17 +20,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <meta property="og:title" content={META.title} />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content={META.type} />
         <meta property="og:description" content={META.description} />
-        <meta property="og:image" content={holdingFishImage} />
-        <meta property="og:url" content="https://www.knotatworkcharters.com" />
+        <meta property="og:image" content={META.image} />
+        <meta property="og:url" content={META.url} />
         <meta name="twitter:card" content="summary_large_image" />
 
         <meta property="og:site_name" content={META.title} />
         <meta name="twitter:image:alt" content="Alt text for image" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Eczar&family=Fredoka+One&family=Raleway&display=swap"
           rel="stylesheet"

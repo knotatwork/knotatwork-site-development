@@ -20,7 +20,7 @@ const MainContent = () => {
       <div style={{ flex: 1, height: "100vh", display: "flex", flexDirection: "column" }}>
         <GlassPane className={styles.glassPaneLogo}>
           <div>
-            <Image src={FullLogo} />
+            <Image src={FullLogo} alt="logo" />
           </div>
           <div style={{ color: "white", textAlign: "center", fontSize: "150%" }}>
             <h4 style={{ fontWeight: "bold" }}>Email, call or text for inquiries</h4>
@@ -42,7 +42,15 @@ const MainContent = () => {
                 justifyContent: "center",
               }}
             >
-              <Image className={styles.leftImage} height={250} width={250} src={HoldingFish} objectPosition="center" objectFit="cover" />
+              <Image
+                alt="fishing"
+                className={styles.leftImage}
+                height={250}
+                width={250}
+                src={HoldingFish}
+                objectPosition="center"
+                objectFit="cover"
+              />
             </div>
             <div
               style={{
@@ -52,7 +60,15 @@ const MainContent = () => {
                 justifyContent: "center",
               }}
             >
-              <Image className={styles.rightImage} height={250} width={250} src={MoreFish} objectPosition="center" objectFit="cover" />
+              <Image
+                alt="fishing"
+                className={styles.rightImage}
+                height={250}
+                width={250}
+                src={MoreFish}
+                objectPosition="center"
+                objectFit="cover"
+              />
             </div>
           </div>
           <h5 className={styles.menuTitle}>Half day / Full day sport fishing</h5>
