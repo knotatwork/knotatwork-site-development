@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import GlassPane from "../../components/GlassPane/GlassPane";
 import styles from "./MainContent.module.css";
-import FullLogo from "../../public/full-logo.png";
+import FullLogo from "../../public/logo-outlined.png";
 import HoldingFish from "../../public/holding-fish.jpg";
 import MoreFish from "../../public/more-fish.jpg";
 
