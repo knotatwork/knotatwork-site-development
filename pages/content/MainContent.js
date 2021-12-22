@@ -17,7 +17,7 @@ const DEEP_FISH = ["Tuna", "Mahi", "Marlin", "Tile", "Trigger", "Sail", "Seabass
 const MainContent = () => {
   return (
     <div className={styles.mainContentContainer}>
-      <div style={{ flex: 1, height: "100vh", display: "flex", flexDirection: "column" }}>
+      <div style={{ position: "relative", flex: 1, display: "flex", flexDirection: "column" }}>
         <GlassPane className={styles.glassPaneLogo}>
           <div>
             <Image src={FullLogo} alt="logo" />

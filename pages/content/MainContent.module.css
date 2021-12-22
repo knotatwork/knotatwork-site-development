@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   width: 100vw;
-  height: 100vh;
   margin: auto;
   max-width: 1200px;
 }
@@ -48,18 +47,19 @@
 
 .glassPaneMenu {
   flex: 2;
-  height: 100vh;
   width: 100%;
   margin: 0 16px;
   max-width: 594px;
   min-width: 200px;
   border-radius: 0;
-  overflow-y: auto;
 }
 
 .glassPaneLogo {
-  margin: auto 16px;
+  margin: 0 16px;
   max-width: 800;
+  position: sticky;
+  top: 25%;
+  left: 0;
 }
 
 .number {
