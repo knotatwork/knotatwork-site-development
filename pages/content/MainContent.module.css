@@ -1,0 +1,103 @@
+.mainContentContainer {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.horizontalContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.imageContainer {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.imageContainer img {
+  flex: 1;
+}
+
+.pill {
+  border-radius: 24px;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  /* background-color: #081374; */
+  color: white;
+  font-size: 0.9rem;
+  border: 2px solid #b1ce1e;
+}
+
+.menuItemDescription {
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+.menuTitle {
+  background: #081374;
+  padding: 8px 16px;
+  border-radius: 0 16px 0 16px;
+}
+
+.glassPaneMenu {
+  flex: 2;
+  height: 100vh;
+  width: 100%;
+  margin: 0 16px;
+  max-width: 594px;
+  min-width: 200px;
+  border-radius: 0;
+  overflow-y: auto;
+}
+
+.glassPaneLogo {
+  margin: auto 16px;
+  max-width: 800;
+}
+
+.number {
+  color: white;
+}
+
+.leftImage {
+  border-radius: 16px 0 0 16px;
+}
+
+.rightImage {
+  border-radius: 0 16px 16px 0;
+}
+
+@media only screen and (max-width: 920px) {
+  .mainContentContainer {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .horizontalContainer {
+    justify-content: center;
+  }
+
+  .glassPaneMenu {
+    margin: 32px auto 0;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+    overflow-y: unset;
+  }
+
+  .glassPaneLogo {
+    margin: 0;
+  }
+
+  .glassPaneLogo,
+  .glassPaneMenu {
+    border-radius: 0;
+  }
+}
