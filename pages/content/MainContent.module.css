@@ -54,11 +54,14 @@
   border-radius: 16px;
 }
 
-
-.paneGap {
-  margin-top: 32px;
+.menuSection {
+  border-radius: 0 0 16px 16px;
 }
 
+.detailsSection {
+  margin-top: 32px;
+  border-radius: 16px 16px 0 0;
+}
 
 .glassPaneLogo {
   margin: 0 16px;

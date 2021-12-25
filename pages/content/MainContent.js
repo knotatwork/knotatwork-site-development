@@ -31,7 +31,7 @@ const MainContent = () => {
         </GlassPane>
       </div>
       <div>
-        <GlassPane className={styles.glassPaneMenu}>
+        <GlassPane className={`${styles.glassPaneMenu} ${styles.menuSection}`}>
           <div>
             <h3>Charter Menu</h3>
             <p>There is a max of 4 people for each trip.</p>
@@ -88,8 +88,8 @@ const MainContent = () => {
             <h5 className={styles.menuTitle}>Full Day Deep Sea Fishing</h5>
             <p>$1250</p>
             <p className={styles.menuItemDescription}>
-              Deep sea fishing is all about being out in the open sea, away from the shore. Roughly speaking, you will be in
-              waters at least 100 ft deep, chasing after the bigger fish that live and migrate offshore. Usually
+              Deep sea fishing is all about being out in the open sea, away from the shore. Roughly speaking, you will
+              be in waters at least 100 ft deep, chasing after the bigger fish that live and migrate offshore. Usually
               synonymous with sport fishing or big game fishing, this is the fishing style you need if you are hoping to
               hook a real trophy.
             </p>
@@ -101,8 +101,9 @@ const MainContent = () => {
             <h5 className={styles.menuTitle}> Full Day Bottom Fishing</h5>
             <p>$1100</p>
             <p className={styles.menuItemDescription}>
-              If you are looking for an action-packed filled day, bottom fishing is for you! This is known for its fun and is an
-              angler&apos;s favorite. Enjoy a nice adrenaline rush from catching fish from hundreds of feet below.
+              If you are looking for an action-packed filled day, bottom fishing is for you! This is known for its fun
+              and is an angler&apos;s favorite. Enjoy a nice adrenaline rush from catching fish from hundreds of feet
+              below.
             </p>
             <div className={styles.horizontalContainer}>
               {BOTTOM_FISH.map((fish) => (
@@ -112,42 +113,39 @@ const MainContent = () => {
             <h5 className={styles.menuTitle}>Dolphin Tour</h5>
             <p>$250</p>
             <p className={styles.menuItemDescription}>
-              Experience the dolphins the Chesapeake Bay waters has to offer! With large groups of dolphins often strolling
-              off the coast, sightings are practically guaranteed. You won&apos;t want to miss the oppourtunity to see these
-              graceful creatures!
+              Experience the dolphins the Chesapeake Bay waters has to offer! With large groups of dolphins often
+              strolling off the coast, sightings are practically guaranteed. You won&apos;t want to miss the
+              oppourtunity to see these graceful creatures!
             </p>
             <h5 className={styles.menuTitle}>Whale Watching Tour</h5>
             <p>$250</p>
             <p className={styles.menuItemDescription}>
-              Experience an unforgettable whale watching trip out of Rudee Inlet. Join us to see these amazing marine mammals and
-              other wildlife in action!
+              Experience an unforgettable whale watching trip out of Rudee Inlet. Join us to see these amazing marine
+              mammals and other wildlife in action!
             </p>
-
-
           </div>
         </GlassPane>
 
-        <GlassPane className={`${styles.paneGap} ${styles.glassPaneMenu}`}>
+        <GlassPane className={`${styles.detailsSection} ${styles.glassPaneMenu}`}>
           <div>
             <h3>Details</h3>
             <h5 className={styles.menuTitle}>About the Captain</h5>
             <p>Geoffrey Scheepers</p>
             <p className={styles.menuItemDescription}>
-              Captain Geoff Scheepers was born and raised in Virginia Beach, Virginia. Geoff began as a deck-hand on offshore
-              charter boats at the age of 18 and now, runs his own operation. He approaches every trip with passion while doing
-              what he loves and calls it work.
+              Captain Geoff Scheepers was born and raised in Virginia Beach, Virginia. Geoff began as a deck-hand on
+              offshore charter boats at the age of 18 and now, runs his own operation. He approaches every trip with
+              passion while doing what he loves and calls it work.
             </p>
             <h5 className={styles.menuTitle}>The Boat</h5>
-            <p>Knot@Work</p>
+            <p>Knot@Work (Grady-White, 30ft)</p>
             <p className={styles.menuItemDescription}>
-              Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one of the best boats
-              for family fishing. Dual consoles easily adapt to a variety of activities. It is a large center console boat that
-              includes cabin space below the helm, a head sink, a bathroom, and a sleeping area. There&apos;s plenty of shade and
-              seating while waiting for fish to bite. The Dual Mecury motors are running like brand new and ready to take you
-              fishing!
+              Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one
+              of the best boats for family fishing. Dual consoles easily adapt to a variety of activities. It is a large
+              center console boat that includes cabin space below the helm, a head sink, a bathroom, and a sleeping
+              area. There&apos;s plenty of shade and seating while waiting for fish to bite. The Dual Mecury motors are
+              running like brand new and ready to take you fishing!
             </p>
           </div>
-
         </GlassPane>
       </div>
     </div>
