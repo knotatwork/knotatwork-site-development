@@ -51,8 +51,14 @@
   margin: 0 16px;
   max-width: 594px;
   min-width: 200px;
-  border-radius: 0;
+  border-radius: 16px;
 }
+
+
+.paneGap {
+  margin-top: 32px;
+}
+
 
 .glassPaneLogo {
   margin: 0 16px;
