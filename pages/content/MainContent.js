@@ -13,6 +13,7 @@ const Pill = (props) => {
 
 const SPORT_FISH = ["Cobia", "Striper", "Trout", "Spot"];
 const DEEP_FISH = ["Tuna", "Mahi", "Marlin", "Tile", "Trigger", "Sail", "Seabass"];
+const BOTTOM_FISH = ["Tile", "Tautog", "Red Drum", "Croaker","Spot"];
 
 const MainContent = () => {
   return (
@@ -83,7 +84,7 @@ const MainContent = () => {
               <Pill key={fish}>{fish}</Pill>
             ))}
           </div>
-          <h5 className={styles.menuTitle}>Full day deep sea fishing</h5>
+          <h5 className={styles.menuTitle}>Full Day Deep Sea Fishing</h5>
           <p>$1250</p>
           <p className={styles.menuItemDescription}>
             Deep sea fishing is all about being out in the open sea, away from the shore. Roughly speaking, you’ll be in
@@ -96,11 +97,54 @@ const MainContent = () => {
               <Pill key={fish}>{fish}</Pill>
             ))}
           </div>
-          <h5 className={styles.menuTitle}>Dolphin tour</h5>
+          <h5 className={styles.menuTitle}> Full Day Bottom Fishing</h5>
+          <p>$1100</p>
+          <p className={styles.menuItemDescription}>
+            If you're looking for an action-packed filled day, bottom fishing is for you! This is known for its fun and is an 
+            angler's favorite. Enjoy a nice adrenaline rush from catching fish from hundreds of feet below. 
+          </p>
+          <div className={styles.horizontalContainer}>
+            {BOTTOM_FISH.map((fish) => (
+              <Pill key={fish}>{fish}</Pill>
+            ))}
+          </div>
+          <h5 className={styles.menuTitle}>Dolphin Tour</h5>
           <p>$250</p>
-          <h5 className={styles.menuTitle}>Whale watching tour</h5>
+          <p className={styles.menuItemDescription}>
+            Experience the dolphins the Chesapeake Bay waters has to offer! With large groups of dolphins often strolling
+            off the coast, sightings are practically guaranteed. You won't want to miss the oppourtunity to see these 
+            graceful creatures!  
+          </p>
+          <h5 className={styles.menuTitle}>Whale Watching Tour</h5>
           <p>$250</p>
+          <p className={styles.menuItemDescription}>
+            Experience an unforgettable whale watching trip out of Rudee Inlet. Join us to see these amazing marine mammals and 
+            other wildlife in action! 
+          </p>
+          <h5 className={styles.menuTitle}>About the Captain</h5>
+          <p>Geoffrey Scheepers</p>
+          <p className={styles.menuItemDescription}>
+            Captain Geoff Scheepers was born and raised in Virginia Beach, Virginia. Geoff began as a deck-hand on offshore 
+            charter boats at the age of 18 and now, runs his own operation. He approaches every trip with passion while doing 
+            what he loves and calls it work.
+          </p>
+          <h5 className={styles.menuTitle}>The Boat</h5>
+          <p>Knot@Work</p>
+          <p className={styles.menuItemDescription}>
+            Grady-White's are one of the most respected boats out there. They're durable, spacious, and one of the best boats 
+            for family fishing. Dual consoles easily adapt to a variety of activities. It is a large center console boat that 
+            includes cabin space below the helm, a head sink, a bathroom, and a sleeping area. There's plenty of shade and
+             seating while waiting for fish to bite. The Dual Mecury motors are running like brand new and ready to take you 
+             fishing!
+          </p>
+
+
+
+
         </div>
+       
+        
+            
       </GlassPane>
     </div>
   );

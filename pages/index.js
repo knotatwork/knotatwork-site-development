@@ -38,7 +38,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Eczar&family=Fredoka+One&family=Raleway&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Eczar&family=Lato:wght@700&family=Fredoka+One&family=Raleway&display=swap"
           rel="stylesheet"
         />
       </Head>
