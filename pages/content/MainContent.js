@@ -87,9 +87,9 @@ const MainContent = () => {
           <h5 className={styles.menuTitle}>Full Day Deep Sea Fishing</h5>
           <p>$1250</p>
           <p className={styles.menuItemDescription}>
-            Deep sea fishing is all about being out in the open sea, away from the shore. Roughly speaking, you’ll be in
+            Deep sea fishing is all about being out in the open sea, away from the shore. Roughly speaking, you will be in
             waters at least 100 ft deep, chasing after the bigger fish that live and migrate offshore. Usually
-            synonymous with sport fishing or big game fishing, this is the fishing style you need if you’re hoping to
+            synonymous with sport fishing or big game fishing, this is the fishing style you need if you are hoping to
             hook a real trophy.
           </p>
           <div className={styles.horizontalContainer}>
@@ -100,8 +100,8 @@ const MainContent = () => {
           <h5 className={styles.menuTitle}> Full Day Bottom Fishing</h5>
           <p>$1100</p>
           <p className={styles.menuItemDescription}>
-            If you're looking for an action-packed filled day, bottom fishing is for you! This is known for its fun and is an 
-            angler's favorite. Enjoy a nice adrenaline rush from catching fish from hundreds of feet below. 
+            If you are looking for an action-packed filled day, bottom fishing is for you! This is known for its fun and is an 
+            angler&apos;s favorite. Enjoy a nice adrenaline rush from catching fish from hundreds of feet below. 
           </p>
           <div className={styles.horizontalContainer}>
             {BOTTOM_FISH.map((fish) => (
@@ -112,7 +112,7 @@ const MainContent = () => {
           <p>$250</p>
           <p className={styles.menuItemDescription}>
             Experience the dolphins the Chesapeake Bay waters has to offer! With large groups of dolphins often strolling
-            off the coast, sightings are practically guaranteed. You won't want to miss the oppourtunity to see these 
+            off the coast, sightings are practically guaranteed. You won&apos;t want to miss the oppourtunity to see these 
             graceful creatures!  
           </p>
           <h5 className={styles.menuTitle}>Whale Watching Tour</h5>
@@ -131,9 +131,9 @@ const MainContent = () => {
           <h5 className={styles.menuTitle}>The Boat</h5>
           <p>Knot@Work</p>
           <p className={styles.menuItemDescription}>
-            Grady-White's are one of the most respected boats out there. They're durable, spacious, and one of the best boats 
+            Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one of the best boats 
             for family fishing. Dual consoles easily adapt to a variety of activities. It is a large center console boat that 
-            includes cabin space below the helm, a head sink, a bathroom, and a sleeping area. There's plenty of shade and
+            includes cabin space below the helm, a head sink, a bathroom, and a sleeping area. There&apos;s plenty of shade and
              seating while waiting for fish to bite. The Dual Mecury motors are running like brand new and ready to take you 
              fishing!
           </p>
