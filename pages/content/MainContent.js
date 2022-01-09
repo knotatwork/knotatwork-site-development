@@ -11,9 +11,9 @@ const Pill = (props) => {
   return <div className={styles.pill}>{children}</div>;
 };
 
-const SPORT_FISH = ["Cobia", "Striper", "Trout", "Spot"];
+const SPORT_FISH = ["Cobia", "Striper", "Trout", "Spot", "Flounder"];
 const DEEP_FISH = ["Tuna", "Mahi", "Marlin", "Tile", "Trigger", "Sail", "Seabass"];
-const BOTTOM_FISH = ["Tile", "Tautog", "Red Drum", "Croaker", "Spot"];
+const BOTTOM_FISH = ["Tile", "Tautog", "Red Drum", "Grouper", "Seabass"];
 
 const MainContent = () => {
   return (
@@ -34,7 +34,7 @@ const MainContent = () => {
         <GlassPane className={styles.glassPaneMenu}>
           <div>
             <h3>Charter Menu</h3>
-            <p>There is a max of 4 people for each trip.</p>
+            <p>There is a max of 5 people for each trip.</p>
             <div className={styles.imageContainer}>
               <div
                 style={{
@@ -86,7 +86,7 @@ const MainContent = () => {
               ))}
             </div>
             <h5 className={styles.menuTitle}>Full Day Deep Sea Fishing</h5>
-            <p>$1250</p>
+            <p>$1650</p>
             <p className={styles.menuItemDescription}>
               Deep sea fishing is all about being out in the open sea, away from the shore. Roughly speaking, you will be in
               waters at least 100 ft deep, chasing after the bigger fish that live and migrate offshore. Usually
@@ -141,10 +141,9 @@ const MainContent = () => {
             <p>Knot@Work</p>
             <p className={styles.menuItemDescription}>
               Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one of the best boats
-              for family fishing. Dual consoles easily adapt to a variety of activities. It is a large center console boat that
-              includes cabin space below the helm, a head sink, a bathroom, and a sleeping area. There&apos;s plenty of shade and
-              seating while waiting for fish to bite. The Dual Mecury motors are running like brand new and ready to take you
-              fishing!
+              for family fishing. It is a large 30 foot center walk around boat that includes cabin space below the helm, a head sink, a bathroom, 
+              and a sleeping area. There&apos;s plenty of shade and seating while waiting for fish to bite. The Dual Yamahaw motors are 
+              running like brand new and ready to take you fishing!
             </p>
           </div>
 
