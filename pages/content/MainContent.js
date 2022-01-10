@@ -139,16 +139,9 @@ const MainContent = () => {
             <h5 className={styles.menuTitle}>The Boat</h5>
             <p>Knot@Work (Grady-White, 30ft)</p>
             <p className={styles.menuItemDescription}>
-<<<<<<< HEAD
               Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one of the best boats
               for family fishing. It is a large 30 foot center walk around boat that includes cabin space below the helm, a head sink, a bathroom, 
               and a sleeping area. There&apos;s plenty of shade and seating while waiting for fish to bite. The Dual Yamahaw motors are 
-=======
-              Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one
-              of the best boats for family fishing. Dual consoles easily adapt to a variety of activities. It is a large
-              center console boat that includes cabin space below the helm, a head sink, a bathroom, and a sleeping
-              area. There&apos;s plenty of shade and seating while waiting for fish to bite. The Dual Mecury motors are
->>>>>>> 45488f6f1b80c3dd21334b8b19fe1dc5698496d4
               running like brand new and ready to take you fishing!
             </p>
           </div>
