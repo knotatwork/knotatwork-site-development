@@ -140,8 +140,8 @@ const MainContent = () => {
             <p>Knot@Work (Grady-White, 30ft)</p>
             <p className={styles.menuItemDescription}>
               Grady-White&apos;s are one of the most respected boats out there. They&apos;re durable, spacious, and one of the best boats
-              for family fishing. It is a large 30 foot center walk around boat that includes cabin space below the helm, a head sink, a bathroom, 
-              and a sleeping area. There&apos;s plenty of shade and seating while waiting for fish to bite. The Dual Yamahaw motors are 
+              for family fishing. It is a large center walk around boat that includes cabin space below the helm, a head sink, a bathroom, 
+              and a sleeping area. There&apos;s plenty of shade and seating while waiting for fish to bite. The Dual Yamaha motors are 
               running like brand new and ready to take you fishing!
             </p>
           </div>
